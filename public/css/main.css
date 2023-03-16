@@ -7,6 +7,9 @@
     box-sizing: border-box;
     font-family: "manuscribe_freeita0";
 }
+body{
+    background-color: rgb(41, 41, 41);
+}
 /* header{
     background-image: linear-gradient(45deg,red,blue);
 } */
@@ -35,22 +38,27 @@
     -webkit-text-fill-color: transparent;
     align-self: center;
     
-    background-image: linear-gradient(45deg, slateblue,dodgerblue);
+    background-image: linear-gradient(45deg, orange,dodgerblue);
     
 }
 
 main {
     padding: 2em;
+    color: orange;
+}
+hr{
+    background-color: orange;
+    height: 1px;
 }
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 a:hover{
-    color: slateblue;
+    color: orange;
 }
 a:active{
-    color: red;
+    color: orange;
 }
 
 main>h1 {
@@ -67,10 +75,11 @@ main>p {
 .form{
     width: 60%;
     margin: auto;
-    background-image: linear-gradient(45deg,slateblue,dodgerblue);
+    background-image: linear-gradient(-45deg,orange 50%,rgb(255, 207, 117),rgb(41, 41, 41) 80%);
     padding: 2em;
     margin-top: 4em;
     border-radius: 8px;
+    
 }
 input{
     padding: 1em;
@@ -95,7 +104,7 @@ label{
 .btn{
     width: auto;
     border-radius: 8px;
-    background-color: slateblue;
+    background-color: rgb(41, 41, 41);
     color: white;
     padding: 1em;
     border: 1px solid white;
