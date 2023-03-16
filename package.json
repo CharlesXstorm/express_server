@@ -1,0 +1,25 @@
+{
+  "name": "express_server",
+  "version": "1.0.0",
+  "description": "express_test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/CharlesXstorm/express_server.git"
+  },
+  "author": "charles_ukadike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharlesXstorm/express_server/issues"
+  },
+  "homepage": "https://github.com/CharlesXstorm/express_server#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  }
+}

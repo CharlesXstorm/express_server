@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC|Kdam+Thmor+Pro|Noto+Sans|Open+Sans|Sevillana|Ubuntu|Lobster");
+@import url("../font/stylesheet.css");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "manuscribe_freeita0";
+}
+/* header{
+    background-image: linear-gradient(45deg,red,blue);
+} */
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    box-shadow: 0px 1px 1px rgb(198, 198, 198);
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav>li {
+    margin-left: 0.5em;
+    align-self: center;
+}
+
+.brand {
+    font-family: "Lobster";
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    align-self: center;
+    
+    background-image: linear-gradient(45deg, slateblue,dodgerblue);
+    
+}
+
+main {
+    padding: 2em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: slateblue;
+}
+a:active{
+    color: red;
+}
+
+main>h1 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-family: 'ragnorthbold';
+    font-size: 50px;
+}
+
+main>p {
+    margin: 1em 5em 0em 5em
+}
+
+.form{
+    width: 60%;
+    margin: auto;
+    background-image: linear-gradient(45deg,slateblue,dodgerblue);
+    padding: 2em;
+    margin-top: 4em;
+    border-radius: 8px;
+}
+input{
+    padding: 1em;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.input{
+    outline: none;
+    border-radius: 8px;
+    padding: 1em;
+    margin: 1em;
+    width: 90%;
+}
+label{
+    /* margin: 2em 1em 1em 0em; */
+    color: white;
+}
+.btn{
+    width: auto;
+    border-radius: 8px;
+    background-color: slateblue;
+    color: white;
+    padding: 1em;
+    border: 1px solid white;
+}
+.btnclass{
+    margin-top: 1em;
+}

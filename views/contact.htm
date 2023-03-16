@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css" />
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <header>
+        <nav class="head">
+            <div class="brand">ShopThings</div>
+            <ul class="nav">
+                <li class="item"><a href="/">shop</a></li>
+                <li class="item"><a href="/admin/contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <h1 class="title">Send message</h1>
+        <form action="/admin/message" class="form" method="POST">
+            <label for="name">Enter your name: </label>
+            <input id="name" type="text" name="client" placeholder="enter name"/>
+            <label for="email">Enter your email: </label>
+            <input id="email" type="email" name="email" placeholder="enter email"/>
+            <label for="msg">Your message: </label>
+            <textarea id="msg" name="message" class="input" rows="6" cols="auto">Enter your message here</textarea>
+            <div class="btnclass"><button type="submit" class="btn">send</button></div>
+        </form>
+    </main>
+</body>
+
+</html>
